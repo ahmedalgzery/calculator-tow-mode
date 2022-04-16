@@ -52,8 +52,10 @@ public class mainFrame extends javax.swing.JFrame {
         jButton21 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculator");
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setToolTipText("calculator");
 
         jTextField1.setBackground(new java.awt.Color(51, 51, 51));
         jTextField1.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
@@ -102,14 +104,11 @@ public class mainFrame extends javax.swing.JFrame {
         jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("7");
-        jButton5.setMaximumSize(new java.awt.Dimension(43, 31));
 
         jButton6.setBackground(new java.awt.Color(51, 51, 51));
         jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("8");
-        jButton6.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton6.setMinimumSize(new java.awt.Dimension(43, 31));
 
         jButton7.setBackground(new java.awt.Color(51, 51, 51));
         jButton7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
