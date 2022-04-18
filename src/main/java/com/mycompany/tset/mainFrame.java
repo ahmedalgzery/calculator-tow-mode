@@ -327,279 +327,145 @@ public class mainFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jToggleButton2StateChanged
 
     private void jToggleButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton2ActionPerformed
-                jPanel1.setBackground(new java.awt.Color(204,204,204));
+        jPanel1.setBackground(new java.awt.Color(204,204,204));
         jTextField1.setBackground(new java.awt.Color(255,255,255));
-        jTextField1.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0,0,0));
-        jTextField1.setText("0.0");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
+   
         jButton1.setBackground(new java.awt.Color(255,255,255));
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 51));
-        jButton1.setText("C");
-        jButton1.setAutoscrolls(true);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jButton2.setBackground(new java.awt.Color(255,255,255));
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 204, 0));
-        jButton2.setText("()");
-        jButton2.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton2.setMinimumSize(new java.awt.Dimension(43, 31));
 
         jButton3.setBackground(new java.awt.Color(255,255,255));
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(0, 204, 0));
-        jButton3.setText("%");
-        jButton3.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton3.setMinimumSize(new java.awt.Dimension(43, 31));
 
         jButton4.setBackground(new java.awt.Color(255,255,255));
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 204, 0));
-        jButton4.setText("÷");
-        jButton4.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton4.setMinimumSize(new java.awt.Dimension(43, 31));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });        // TODO add your handling code here:
-                jButton5.setBackground(new java.awt.Color(255,255,255));
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+           
+        // TODO add your handling code here:
+        jButton5.setBackground(new java.awt.Color(255,255,255));
         jButton5.setForeground(new java.awt.Color(0,0,0));
-        jButton5.setText("7");
-        jButton5.setMaximumSize(new java.awt.Dimension(43, 31));
-
+ 
         jButton6.setBackground(new java.awt.Color(255,255,255));
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(0,0,0));
-        jButton6.setText("8");
-        jButton6.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton6.setMinimumSize(new java.awt.Dimension(43, 31));
+
 
         jButton7.setBackground(new java.awt.Color(255,255,255));
-        jButton7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton7.setForeground(new java.awt.Color(0,0,0));
-        jButton7.setText("9");
 
         jButton8.setBackground(new java.awt.Color(255,255,255));
-        jButton8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton8.setForeground(new java.awt.Color(0, 204, 0));
-        jButton8.setText("x");
 
         jButton9.setBackground(new java.awt.Color(255,255,255));
-        jButton9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton9.setForeground(new java.awt.Color(0,0,0));
-        jButton9.setText("4");
 
         jButton10.setBackground(new java.awt.Color(255,255,255));
-        jButton10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton10.setForeground(new java.awt.Color(0,0,0));
-        jButton10.setText("5");
 
         jButton11.setBackground(new java.awt.Color(255,255,255));
-        jButton11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton11.setForeground(new java.awt.Color(0,0,0));
-        jButton11.setText("6");
 
         jButton12.setBackground(new java.awt.Color(255,255,255));
-        jButton12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton12.setForeground(new java.awt.Color(0, 204, 0));
-        jButton12.setText("-");
 
         jButton13.setBackground(new java.awt.Color(255,255,255));
-        jButton13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton13.setForeground(new java.awt.Color(0,0,0));
-        jButton13.setText("1");
 
         jButton14.setBackground(new java.awt.Color(255,255,255));
-        jButton14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton14.setForeground(new java.awt.Color(0,0,0));
-        jButton14.setText("2");
 
         jButton15.setBackground(new java.awt.Color(255,255,255));
-        jButton15.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton15.setForeground(new java.awt.Color(0,0,0));
-        jButton15.setText("3");
 
         jButton16.setBackground(new java.awt.Color(255,255,255));
-        jButton16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton16.setForeground(new java.awt.Color(0, 204, 0));
-        jButton16.setText("+");
 
         jButton17.setBackground(new java.awt.Color(255,255,255));
-        jButton17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton17.setForeground(new java.awt.Color(0,0,0));
-        jButton17.setText("+/-");
 
         jButton18.setBackground(new java.awt.Color(255,255,255));
-        jButton18.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
         jButton18.setForeground(new java.awt.Color(0,0,0));
-        jButton18.setText("0");
 
         jButton19.setBackground(new java.awt.Color(255,255,255));
-        jButton19.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton19.setForeground(new java.awt.Color(0,0,0));
-        jButton19.setText(".");
 
         jButton20.setBackground(new java.awt.Color(0, 204, 0));
-        jButton20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton20.setForeground(new java.awt.Color(255, 255, 255));
-        jButton20.setText("=");
 
         jToggleButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jToggleButton2.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
-        jToggleButton2.setText("white");
-        jToggleButton2.addChangeListener(new javax.swing.event.ChangeListener() {
-            public void stateChanged(javax.swing.event.ChangeEvent evt) {
-                jToggleButton2StateChanged(evt);
-            }
-        });
-        jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton2ActionPerformed(evt);
-            }
-        });
 
         jButton21.setBackground(new java.awt.Color(0, 0, 0));
-        jButton21.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
         jButton21.setForeground(new java.awt.Color(255, 255, 255));
-        jButton21.setText("Dark");
 
     }//GEN-LAST:event_jToggleButton2ActionPerformed
 
     private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
-         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jTextField1.setBackground(new java.awt.Color(51, 51, 51));
-        jTextField1.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField1.setText("0.0");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
-            }
-        });
+     
 
         jButton1.setBackground(new java.awt.Color(51, 51, 51));
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 51));
-        jButton1.setText("C");
-        jButton1.setAutoscrolls(true);
-        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-
+        
         jButton2.setBackground(new java.awt.Color(51, 51, 51));
-        jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 204, 0));
-        jButton2.setText("()");
-        jButton2.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton2.setMinimumSize(new java.awt.Dimension(43, 31));
-
+  
         jButton3.setBackground(new java.awt.Color(51, 51, 51));
-        jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(0, 204, 0));
-        jButton3.setText("%");
-        jButton3.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton3.setMinimumSize(new java.awt.Dimension(43, 31));
 
         jButton4.setBackground(new java.awt.Color(51, 51, 51));
-        jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 204, 0));
-        jButton4.setText("÷");
-        jButton4.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton4.setMinimumSize(new java.awt.Dimension(43, 31));
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
 
         jButton5.setBackground(new java.awt.Color(51, 51, 51));
-        jButton5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jButton5.setText("7");
-        jButton5.setMaximumSize(new java.awt.Dimension(43, 31));
 
         jButton6.setBackground(new java.awt.Color(51, 51, 51));
-        jButton6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jButton6.setText("8");
-        jButton6.setMaximumSize(new java.awt.Dimension(43, 31));
-        jButton6.setMinimumSize(new java.awt.Dimension(43, 31));
 
         jButton7.setBackground(new java.awt.Color(51, 51, 51));
-        jButton7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jButton7.setText("9");
 
         jButton8.setBackground(new java.awt.Color(51, 51, 51));
-        jButton8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton8.setForeground(new java.awt.Color(0, 204, 0));
-        jButton8.setText("x");
 
         jButton9.setBackground(new java.awt.Color(51, 51, 51));
-        jButton9.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton9.setForeground(new java.awt.Color(255, 255, 255));
-        jButton9.setText("4");
 
         jButton10.setBackground(new java.awt.Color(51, 51, 51));
-        jButton10.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton10.setForeground(new java.awt.Color(255, 255, 255));
-        jButton10.setText("5");
 
         jButton11.setBackground(new java.awt.Color(51, 51, 51));
-        jButton11.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton11.setForeground(new java.awt.Color(255, 255, 255));
-        jButton11.setText("6");
 
         jButton12.setBackground(new java.awt.Color(51, 51, 51));
-        jButton12.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton12.setForeground(new java.awt.Color(0, 204, 0));
-        jButton12.setText("-");
 
         jButton13.setBackground(new java.awt.Color(51, 51, 51));
-        jButton13.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton13.setForeground(new java.awt.Color(255, 255, 255));
-        jButton13.setText("1");
 
         jButton14.setBackground(new java.awt.Color(51, 51, 51));
-        jButton14.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton14.setForeground(new java.awt.Color(255, 255, 255));
-        jButton14.setText("2");
 
         jButton15.setBackground(new java.awt.Color(51, 51, 51));
-        jButton15.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton15.setForeground(new java.awt.Color(255, 255, 255));
-        jButton15.setText("3");
 
         jButton16.setBackground(new java.awt.Color(51, 51, 51));
-        jButton16.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton16.setForeground(new java.awt.Color(0, 204, 0));
-        jButton16.setText("+");
 
         jButton17.setBackground(new java.awt.Color(51, 51, 51));
-        jButton17.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton17.setForeground(new java.awt.Color(255, 255, 255));
-        jButton17.setText("+/-");
 
         jButton18.setBackground(new java.awt.Color(51, 51, 51));
-        jButton18.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
         jButton18.setForeground(new java.awt.Color(255, 255, 255));
-        jButton18.setText("0");
 
         jButton19.setBackground(new java.awt.Color(51, 51, 51));
-        jButton19.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton19.setForeground(new java.awt.Color(255, 255, 255));
-        jButton19.setText(".");
 
         jButton20.setBackground(new java.awt.Color(0, 204, 0));
-        jButton20.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jButton20.setForeground(new java.awt.Color(255, 255, 255));
-        jButton20.setText("=");        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jButton21ActionPerformed
 
     /**
